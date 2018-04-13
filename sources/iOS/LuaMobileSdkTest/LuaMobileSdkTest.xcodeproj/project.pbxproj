@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0608CFD1FB1557B00B6AFA4 /* LuaMobileSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0608CFE1FB1557B00B6AFA4 /* LuaMobileSdk.framework */; };
+		EF73620B3E0051FE811FEAF7 /* FunctionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7368ED98818E844FD12902 /* FunctionTest.m */; };
+		EF7362118DF81D42506FFE67 /* ClassTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736098C90850F5666E3201 /* ClassTest.m */; };
+		EF7362C07870790B01CE8824 /* BaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736C478B2C165DF72E5BFF /* BaseTest.m */; };
+		EF7364A64897E151ACC43490 /* PlainDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736B4B7993EC863EB4BA98 /* PlainDataTest.m */; };
+		EF73682D21997765547ED186 /* BaseWithLibraryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736B94CE6DBECD0B4BDEF0 /* BaseWithLibraryTest.m */; };
+		EF736988FE0B7AAB70325634 /* ModuleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736007C584AFC037844D81 /* ModuleTest.m */; };
+		EF736B0ECEB2F8B92777435C /* NormalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF736830AF1A46B57909FC58 /* NormalTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0608CFE1FB1557B00B6AFA4 /* LuaMobileSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LuaMobileSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09211841FB14AB7003CC7A0 /* LuaMobileSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LuaMobileSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DA24971FB147B000122744 /* LuaMobileSdkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaMobileSdkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DA249E1FB147B000122744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF736007C584AFC037844D81 /* ModuleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleTest.m; sourceTree = "<group>"; };
+		EF736098C90850F5666E3201 /* ClassTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTest.m; sourceTree = "<group>"; };
+		EF73614E5A624328AC88CAAD /* BaseWithLibraryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithLibraryTest.h; sourceTree = "<group>"; };
+		EF736317E8558C46870C6F51 /* BaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTest.h; sourceTree = "<group>"; };
+		EF736830AF1A46B57909FC58 /* NormalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTest.m; sourceTree = "<group>"; };
+		EF7368ED98818E844FD12902 /* FunctionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionTest.m; sourceTree = "<group>"; };
+		EF736B4B7993EC863EB4BA98 /* PlainDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainDataTest.m; sourceTree = "<group>"; };
+		EF736B94CE6DBECD0B4BDEF0 /* BaseWithLibraryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWithLibraryTest.m; sourceTree = "<group>"; };
+		EF736C478B2C165DF72E5BFF /* BaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0DA24941FB147B000122744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0608CFD1FB1557B00B6AFA4 /* LuaMobileSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E09211821FB14AB7003CC7A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0608CFE1FB1557B00B6AFA4 /* LuaMobileSdk.framework */,
+				E09211841FB14AB7003CC7A0 /* LuaMobileSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DA24841FB147B000122744 = {
+			isa = PBXGroup;
+			children = (
+				E0DA249B1FB147B000122744 /* LuaMobileSdkTestTests */,
+				E0DA248F1FB147B000122744 /* Products */,
+				E09211821FB14AB7003CC7A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DA248F1FB147B000122744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DA24971FB147B000122744 /* LuaMobileSdkTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DA249B1FB147B000122744 /* LuaMobileSdkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DA249E1FB147B000122744 /* Info.plist */,
+				EF7361E8D082B0F10F3F87C8 /* base */,
+				EF7367187D4E3E50A5973A67 /* tests */,
+			);
+			path = LuaMobileSdkTestTests;
+			sourceTree = "<group>";
+		};
+		EF7361E8D082B0F10F3F87C8 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				EF736C478B2C165DF72E5BFF /* BaseTest.m */,
+				EF736317E8558C46870C6F51 /* BaseTest.h */,
+				EF736B94CE6DBECD0B4BDEF0 /* BaseWithLibraryTest.m */,
+				EF73614E5A624328AC88CAAD /* BaseWithLibraryTest.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		EF7367187D4E3E50A5973A67 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF736830AF1A46B57909FC58 /* NormalTest.m */,
+				EF736007C584AFC037844D81 /* ModuleTest.m */,
+				EF7368ED98818E844FD12902 /* FunctionTest.m */,
+				EF736B4B7993EC863EB4BA98 /* PlainDataTest.m */,
+				EF736098C90850F5666E3201 /* ClassTest.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0DA24961FB147B000122744 /* LuaMobileSdkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DA24A51FB147B100122744 /* Build configuration list for PBXNativeTarget "LuaMobileSdkTestTests" */;
+			buildPhases = (
+				E0DA24931FB147B000122744 /* Sources */,
+				E0DA24941FB147B000122744 /* Frameworks */,
+				E0DA24951FB147B000122744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaMobileSdkTestTests;
+			productName = LuaMobileSdkTestTests;
+			productReference = E0DA24971FB147B000122744 /* LuaMobileSdkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0DA24851FB147B000122744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = luamobilesdk;
+				TargetAttributes = {
+					E0DA24961FB147B000122744 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E0DA24881FB147B000122744 /* Build configuration list for PBXProject "LuaMobileSdkTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0DA24841FB147B000122744;
+			productRefGroup = E0DA248F1FB147B000122744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0DA24961FB147B000122744 /* LuaMobileSdkTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0DA24951FB147B000122744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0DA24931FB147B000122744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7362C07870790B01CE8824 /* BaseTest.m in Sources */,
+				EF73682D21997765547ED186 /* BaseWithLibraryTest.m in Sources */,
+				EF736B0ECEB2F8B92777435C /* NormalTest.m in Sources */,
+				EF736988FE0B7AAB70325634 /* ModuleTest.m in Sources */,
+				EF73620B3E0051FE811FEAF7 /* FunctionTest.m in Sources */,
+				EF7364A64897E151ACC43490 /* PlainDataTest.m in Sources */,
+				EF7362118DF81D42506FFE67 /* ClassTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0DA24A01FB147B100122744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0DA24A11FB147B100122744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0DA24A61FB147B100122744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuaMobileSdkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lua.mobile.sdk.LuaMobileSdkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0DA24A71FB147B100122744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuaMobileSdkTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lua.mobile.sdk.LuaMobileSdkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0DA24881FB147B000122744 /* Build configuration list for PBXProject "LuaMobileSdkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DA24A01FB147B100122744 /* Debug */,
+				E0DA24A11FB147B100122744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DA24A51FB147B100122744 /* Build configuration list for PBXNativeTarget "LuaMobileSdkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DA24A61FB147B100122744 /* Debug */,
+				E0DA24A71FB147B100122744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0DA24851FB147B000122744 /* Project object */;
+}
